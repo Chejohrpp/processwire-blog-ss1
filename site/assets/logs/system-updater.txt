@@ -1,0 +1,39 @@
+2023-08-20 14:52:17	Update #8: Completed!
+2023-08-20 14:52:17	Update #9: Initializing update
+2023-08-20 14:52:20	Update #9: Added: Pages > Recent
+2023-08-20 14:52:20	Update #9: Completed!
+2023-08-20 14:52:45	Update #10: Initializing update
+2023-08-20 14:52:48	Update #10: Installed ProcessLogger and added: Setup > Logs
+2023-08-20 14:52:48	Update #10: Installed InputfieldIcon
+2023-08-20 14:52:48	Update #10: Completed!
+2023-08-20 14:54:53	Update #11: Initializing update
+2023-08-20 14:54:53	Update #11: Completed!
+2023-08-20 14:54:55	Update #12: Initializing update
+2023-08-20 14:54:55	Update #12: Added 'published' column to pages table
+2023-08-20 14:54:55	Update #12: Populated values to 'published' for 43 pages
+2023-08-20 14:54:55	Update #12: Completed!
+2023-08-20 14:54:55	Update #13: Initializing update
+2023-08-20 14:54:57	Update #13: Completed!
+2023-08-20 14:55:03	Update #14: Initializing update
+2023-08-20 14:55:03	Update #14: Completed!
+2023-08-20 14:55:16	Update #15: Initializing update
+2023-08-20 14:55:17	Update #15: Completed!
+2023-08-20 14:55:17	Update #16: Initializing update
+2023-08-20 14:55:18	Update #16: Completed!
+2023-08-20 14:55:19	Update #17: Initializing update
+2023-08-20 14:55:19	Update #17: Skipped: /processwire/site/.htaccess (already exists)
+2023-08-20 14:55:19	Update #17: Created: /processwire/site/assets/.htaccess
+2023-08-20 14:55:19	Update #17: Skipped: /processwire/site/assets/cache/.htaccess (already exists)
+2023-08-20 14:55:19	Update #17: Skipped: /processwire/site/assets/backups/.htaccess (already exists)
+2023-08-20 14:55:19	Update #17: Skipped: /processwire/site/assets/logs/.htaccess (already exists)
+2023-08-20 14:55:19	Update #17: Created: /processwire/site/templates/.htaccess
+2023-08-20 14:55:19	Update #17: Created: /processwire/site/modules/.htaccess
+2023-08-20 14:55:19	Update #17: Details: <a href='https://processwire.com/blog/posts/pw-3.0.135/' target='_blank'>https://processwire.com/blog/posts/pw-3.0.135/</a>
+2023-08-20 14:55:19	Update #17: Completed!
+2023-08-20 14:55:19	Update #18: Initializing update
+2023-08-20 14:55:19	Update #18: Completed!
+2023-08-20 14:55:20	Update #19: Initializing update
+2023-08-20 14:55:20	Update #19: Completed!
+2023-08-20 14:55:30	Update #20: Initializing update
+2023-08-20 14:55:30	Update #20: Updated 29 page(s) for correct created_users_id
+2023-08-20 14:55:30	Update #20: Completed!

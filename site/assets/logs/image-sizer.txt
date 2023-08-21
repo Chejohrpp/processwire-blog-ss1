@@ -1,0 +1,1 @@
+2023-08-20 19:03:20	admin	http://localhost/processwire/processwire/page/edit/?id=1016&InputfieldFileAjax=1	GD Resized: ing_sw_seminario.png => ing_sw_seminario.0x260.png (0x260) 0.6641 secs 17185 => 72799 bytes (quality=90, sharpening=soft)

@@ -1,0 +1,9 @@
+{
+    "file": "site\/templates\/page.php",
+    "textdomain": "site--templates--page-php",
+    "translations": {
+        "313a577bf97f32827f570d8a9138535e": {
+            "text": "The title of a highest featured post"
+        }
+    }
+}
