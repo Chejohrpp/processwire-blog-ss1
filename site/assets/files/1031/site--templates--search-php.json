@@ -1,0 +1,9 @@
+{
+    "file": "site\/templates\/search.php",
+    "textdomain": "site--templates--search-php",
+    "translations": {
+        "dad2638e90972f41dc66819adbcbf137": {
+            "text": "Results:"
+        }
+    }
+}

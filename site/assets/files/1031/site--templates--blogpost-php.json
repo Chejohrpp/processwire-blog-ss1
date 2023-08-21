@@ -1,0 +1,15 @@
+{
+    "file": "site\/templates\/blogpost.php",
+    "textdomain": "site--templates--blogpost-php",
+    "translations": {
+        "47054d589ca5fa1a860564f669249a99": {
+            "text": "Recent Entries"
+        },
+        "f26e198d98f681e4c5a2efff002cfd4f": {
+            "text": "Example of a Blog Post Title"
+        },
+        "a5b6a8c3d0b5592460e53d4b9ad34df3": {
+            "text": "Return to blog home"
+        }
+    }
+}

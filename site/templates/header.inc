@@ -178,7 +178,7 @@
     <div class="row ">
 
       <div class="col-md-4 offset-md-4">
-        <a class="blog-header-logo text-body-emphasis text-decoration-none" href="<?php echo $pages->get("/")->url; ?>">BLOG</a>
+        <a class="blog-header-logo text-body-emphasis text-decoration-none" href="<?php echo $pages->get("/")->url; ?>">Bit por Cerebro</a>
       </div>
 
       <div class="col-md-4 offset-md-4">

@@ -5,69 +5,9 @@ include "header.inc"
 <main class="container">
 
   <div class="row g-5">
-    <div class="col-md-4">
-      <div class="position-sticky" style="top: 2rem;">
-        <div class="p-4 mb-3 bg-body-tertiary rounded">
-          <h4 class="fst-italic">alrededor</h4>
-          <p class="mb-0">
-          Has venido, y la vida de todo tipo y color ha venido contigo: la planta crece, los árboles deshojan y florecen, el gatito maúlla, los arrullos lunares, la oveja Yathgo, la vaca el arroyo, y cada mascota invita a su mascota. Todo siente la vida y olvida las preocupaciones de la vida, y sólo menciona la felicidad de la vida, si el tiempo es una carne, tú eres su alma, y si es la edad, tú eres su juventud.
-          </p>
-        </div>
-
-        <div>
-          <h4 class="fst-italic">Entradas recientes</h4>
-          <ul class="list-unstyled">
-            <li>
-              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
-                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-                <div class="col-lg-8">
-                  <h6 class="mb-0">Ejemplo del título de una entrada de blog</h6>
-                  <small class="text-body-secondary">15 enero 2023</small>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
-                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-                <div class="col-lg-8">
-                  <h6 class="mb-0">Este es otro título para el blog</h6>
-                  <small class="text-body-secondary">14 enero 2023</small>
-                </div>
-              </a>
-            </li>
-            <li>
-              <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
-                <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
-                <div class="col-lg-8">
-                  <h6 class="mb-0">Título de la publicación de blog más largo: ¡Esta fuente tiene varias líneas!</h6>
-                  <small class="text-body-secondary">13 enero 2023</small>
-                </div>
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="p-4">
-          <h4 class="fst-italic">Tags</h4>
-
-          <?php foreach ($pages -> find("template=tag,sort=title") as $tag){ ?>
-
-            <button type="button" class="btn btn-success"><i class="fa-solid fa-tag"></i> <?php echo $tag->title;  ?> </button> 
-
-          <?php } ?>
-        </div>
-
-        <div class="p-4">
-          <h4 class="fst-italic">Buscanos en</h4>
-          <ol class="list-unstyled">
-            <li><a href="#">GitHub</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Facebook</a></li>
-          </ol>
-        </div>
-      </div>
-    </div>
-
+  <?php
+    include "sidebar.inc";
+  ?>
     <div class="col-md-8">
       <h1 class="mb-4 fst-italic">
         <?php echo $page->title; ?>
@@ -89,7 +29,7 @@ include "header.inc"
         </p>
         <?php echo $sanitizer->truncate($blogpost->blogtext,500); ?>
         <br>
-        <img src="<?php echo $blogpost->blogimage->url; ?>" >
+        <img src="<?php echo $blogpost->blogimage->url; ?>" style="width: 500px; height: 379px" >
       </article>
       <a class="btn btn-primary rounded-pill" href="<?php echo $blogpost->url; ?>">Leer mas...</a>
 

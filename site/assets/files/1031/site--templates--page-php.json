@@ -2,8 +2,17 @@
     "file": "site\/templates\/page.php",
     "textdomain": "site--templates--page-php",
     "translations": {
-        "313a577bf97f32827f570d8a9138535e": {
-            "text": "The title of a highest featured post"
+        "3d6ed048fc38091d01fa9cf8b7de6874": {
+            "text": "Navigating the World of Artificial Intelligences"
+        },
+        "14942cb104e0f5b2c0d359a0dd3f9375": {
+            "text": "In the captivating intersection of technology and the future, Artificial Intelligences (AIs) shine with their own light. We invite you to explore this exciting world in 'Bit by Brain: Navigating the Universe of AIs'. Discover how these digital wonders are transforming our lives and unraveling the boundaries between the human and the artificial. Welcome to a journey of awe and innovation!"
+        },
+        "532de8e29537fe111bd787f7a9f654f2": {
+            "text": "from the Infinite Source"
+        },
+        "921ffb76b26d6a78af8eea9a66437357": {
+            "text": "Read more..."
         }
     }
 }
